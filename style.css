@@ -19,12 +19,25 @@ h1{
 }
 
 .card {
-    height: 180px;
+    height: 150px;
     position: relative;
     overflow: hidden;
     text-align: center;
     width: 100%;
 }
+
+@media (max-width: 767px) {
+    .card {
+      height: 300px; 
+    }
+  }
+  
+@media (min-width: 768px) {
+    .card {
+      height: 150px; 
+    }
+  }
+  
 
 .forecast-buttons {
     position: absolute;
